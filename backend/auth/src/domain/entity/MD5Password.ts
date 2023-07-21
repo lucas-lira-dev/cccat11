@@ -1,4 +1,4 @@
-import { pbkdf2Sync, createHash, randomBytes } from "crypto";
+import { createHash } from "crypto";
 import Password from "./Password";
 
 export default class MD5Password implements Password {

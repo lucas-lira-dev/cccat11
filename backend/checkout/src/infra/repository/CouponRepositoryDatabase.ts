@@ -1,4 +1,3 @@
-import pgp from "pg-promise";
 import Coupon from "../../domain/entity/Coupon";
 import CouponRepository from "../../application/repository/CouponRepository";
 import DatabaseConnection from "../database/DatabaseConnection";

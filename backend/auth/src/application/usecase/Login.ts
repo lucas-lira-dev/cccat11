@@ -1,7 +1,6 @@
 import UserRepository from "../repository/UserRepository";
 import TokenGenerator from "../../domain/entity/TokenGenerator";
 
-
 export default class Login {
 
 	constructor (readonly userRepository: UserRepository) {
@@ -18,7 +17,6 @@ export default class Login {
 			throw new Error("Authentication failed");
 		}
 	}
-
 }
 
 type Input = {
